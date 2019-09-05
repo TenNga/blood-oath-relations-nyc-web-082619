@@ -20,6 +20,7 @@ class Follower
       self.cults.each { |cult| puts cult.slogan }
       nil 
     end
+<<<<<<< HEAD
 
     def fellow_cult_members
       all_fellow_cult_members = []
@@ -31,6 +32,8 @@ class Follower
       all_fellow_cult_members
       
     end
+=======
+>>>>>>> e493772c45e8426143c06326440680a269c4c77b
     
     def self.follower_popularity 
       follower_with_popularity = {}
